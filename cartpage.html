@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Cart</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .cart-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 10px 0;
+      gap: 10px;
+    }
+    .cart-item img {
+      width: 50px;
+      height: 50px;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+    .cart-item-content {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex: 1;
+    }
+  </style>
+</head>
+<body>
+  <div class="cart">
+    <h2>Cart</h2>
+
+    <div class="cart-item">
+      <div class="cart-item-content">
+        <img src="images/Burgers/cheeseBurger.png" alt="Cheeseburger" />
+        <span>Cheeseburger</span>
+      </div>
+      <span>$5.98</span>
+    </div>
+
+    <div class="cart-item">
+      <div class="cart-item-content">
+        <img src="images/Burgers/alohaBurger.png" alt="Aloha Burger" />
+        <span>Aloha Burger x3</span>
+      </div>
+      <span>$38.88</span>
+    </div>
+
+    <div class="cart-item">
+      <div class="cart-item-content">
+        <img src="images/driks/milkshake.png" alt="Iced Tea" />
+        <span>Iced Tea</span>
+      </div>
+      <span>$6.47</span>
+    </div>
+
+    <div class="cart-item">
+      <div class="cart-item-content">
+        <img src="images/salads/greekSalad.png" alt="Greek Salad" />
+        <span>Greek Salad</span>
+      </div>
+      <span>$9.48</span>
+    </div>
+
+    <button>Go to checkout $91.23</button>
+  </div>
+</body>
+</html>

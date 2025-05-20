@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Home</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #fff;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      padding: 0;
+      margin-top: 10px;
+    }
+    nav li {
+      margin: 0 15px;
+      cursor: pointer;
+    }
+    .food-section {
+      padding: 20px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .food-item {
+      background: white;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .food-item img {
+      width: 120px;
+      height: 100px;
+      border-radius: 10px 0 0 10px;
+      object-fit: cover;
+    }
+    .food-details {
+      padding: 15px;
+    }
+    .food-details h3 {
+      margin: 0 0 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Sunset Dinner</h1>
+    <p>Deliver now! Dhaka, Bangladesh</p>
+    <div>
+      <strong>Delivery Fee:</strong> $5.00 |
+      <strong>Time:</strong> 30-45 min |
+      <strong>Rating:</strong> ⭐ 4.5
+    </div>
+    <nav>
+      <ul>
+        <li>Burgers</li>
+        <li>Salads</li>
+        <li>Sides</li>
+        <li>Desserts</li>
+        <li>Drinks</li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="food-section">
+    <div class="food-item">
+      <img src="images/Burgers/cheeseBurger.png" alt="Cheeseburger" />
+      <div class="food-details">
+        <h3>Cheeseburger - $5.99</h3>
+        <p>A juicy cheeseburger topped with fresh lettuce, tomato, and cheddar cheese.</p>
+      </div>
+    </div>
+
+    <div class="food-item">
+      <img src="images/salads/greekSalad.png" alt="Greek Salad" />
+      <div class="food-details">
+        <h3>Greek Salad - $6.49</h3>
+        <p>Fresh cucumbers, olives, tomatoes, and feta cheese tossed in olive oil.</p>
+      </div>
+    </div>
+
+    <div class="food-item">
+      <img src="images/sides/sweetPotatoes.png" alt="Sweet Potato Fries" />
+      <div class="food-details">
+        <h3>Sweet Potato Fries - $4.50</h3>
+        <p>Crispy sweet potato fries with sea salt and garlic aioli dip.</p>
+      </div>
+    </div>
+
+    <div class="food-item">
+      <img src="images/desserts/chocolateCake.png" alt="Chocolate Cake" />
+      <div class="food-details">
+        <h3>Chocolate Cake - $3.99</h3>
+        <p>Rich and moist chocolate cake with creamy chocolate frosting.</p>
+      </div>
+    </div>
+
+    <div class="food-item">
+      <img src="images/driks/smoothis.png" alt="Iced Tea" />
+      <div class="food-details">
+        <h3>Iced Tea - $2.99</h3>
+        <p>Refreshing brewed tea served cold with a hint of lemon.</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

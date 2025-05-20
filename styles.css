@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f3eaf3;
+  color: #333;
+}
+header, .section, .cart, .checkout, .auth-form {
+  padding: 20px;
+  margin: 10px auto;
+  max-width: 500px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+h1, h2 {
+  text-align: center;
+}
+.product, .cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+.cart-item input[type=number] {
+  width: 40px;
+}
+.addons, .rating, .auth-form input {
+  margin: 10px 0;
+}
+.auth-form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #999;
+  border-radius: 5px;
+}
+button, .auth-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #5a5169;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+}
+.rating span {
+  color: gold;
+  font-size: 24px;
+}
+.checkout input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid red;
+  margin: 10px 0;
+}
